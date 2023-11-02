@@ -9,9 +9,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * @Title: ConcurrentModification
  * @Description:
- * @Company: hjsj
+ * @Company: hwqing
  * @Create time: 2023/10/8 14:36
- * @Author: huangwq
+ * @Author: hwqing
  * @Version 1.0
  */
 public class ConcurrentModification {

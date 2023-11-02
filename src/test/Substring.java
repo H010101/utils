@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * @Title: Substring
  * @Description:
- * @Company: hjsj
+ * @Company: hwqing
  * @Create time: 2023/10/9 18:04
- * @Author: huangwq
+ * @Author: hwqing
  * @Version 1.0
  */
 public class Substring {

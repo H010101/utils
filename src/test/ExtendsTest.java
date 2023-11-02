@@ -3,9 +3,9 @@ package test;
 /**
  * @Title: ExtendsTest
  * @Description:
- * @Company: hjsj
+ * @Company: hwqing
  * @Create time: 2023/10/26 10:26
- * @Author: huangwq
+ * @Author: hwqing
  * @Version 1.0
  */
 public class ExtendsTest {

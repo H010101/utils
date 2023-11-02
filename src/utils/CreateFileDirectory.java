@@ -11,7 +11,7 @@ import java.io.File;
  */
 public class CreateFileDirectory {
     public static void createDirectory(String packageName, String directoryPath) {
-        String path = directoryPath + File.separator + packageName.replace(".", File.separator);
+        String path = directoryPath + File.separator + packageName.replace(".", File.separator).replace("/", File.separator);
         File directory = new File(path);
         directory.mkdirs();
 
@@ -23,8 +23,8 @@ public class CreateFileDirectory {
     }
 
     public static void main(String[] args) {
-        String packageName = "com.hjsj.hrms.module.performance.targetcard";
-        String directoryPath = "C:\\Users\\hwqin\\Desktop\\上海期货补丁";
+        String packageName = "";
+        String directoryPath = "C:\\Users\\hwqin\\Desktop\\";
 
         createDirectory(packageName, directoryPath);
     }

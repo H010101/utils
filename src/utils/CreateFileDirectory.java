@@ -23,8 +23,9 @@ public class CreateFileDirectory {
     }
 
     public static void main(String[] args) {
-        String packageName = "";
-        String directoryPath = "C:\\Users\\hwqin\\Desktop\\";
+        String packageName = "com.hjsj.hrms.module.performance.targetcard";
+        packageName = "hrms/module/performance/plan";
+        String directoryPath = "C:\\Users\\hwqin\\Desktop\\广州打捞局";
 
         createDirectory(packageName, directoryPath);
     }

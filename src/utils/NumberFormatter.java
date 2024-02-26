@@ -49,4 +49,8 @@ public class NumberFormatter {
         }
         return returnNum;
     }
+
+    public static void main(String[] args) throws Exception {
+        System.out.println(NumberFormatter.numberFormat("0E-8", 2, false));
+    }
 }

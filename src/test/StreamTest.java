@@ -2,6 +2,7 @@ package test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @Title: StreamTest
@@ -25,5 +26,11 @@ public class StreamTest {
             mapList.add(map);
         }
         System.out.println(mapList.stream().map(map->((Map)map).get("object_id").toString().split("_")[0]).collect(Collectors.toList()));
+        String splitStr = "1,45,56";
+        List<String> splitList = Stream.of(splitStr.split(",")).collect(Collectors.toList());
+        List<String> splitList2 = Arrays.asList(splitStr.split(","));
+        System.out.println(splitList);
+        System.out.println(splitList2.subList(0, 1));
+
     }
 }
